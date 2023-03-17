@@ -1,0 +1,168 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-funto: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-fundo: #569ff8;
+}
+
+body {
+    background-color: var(--cor-de-funto);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.principal {
+    background-image: url(./imagens/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.conteiner {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.conteiner__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.conteiner__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    color: var(--branco-principal);
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.conteiner__botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.conteiner__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.conteiner__img {
+    margin: 1em 0 2em 0;
+}
+
+.conteiner__caixa {
+    margin: 0 6em;
+}
+
+.conteiner__img_secundario {
+    width: 80%;
+    
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.conteiner__descrisao {
+    margin: 0 2em;
+    padding: 2em;
+}
+
+.descrisao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descisao__texto {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+}
+
+.descrisao_botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.img_notebook {
+    width: 90%;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+    
+}
+
+.dispositivos__titulo {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 1em;
+    color: var(--branco-principal);
+}
+
+.dispositivos__items {
+    align-items: center;
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape {
+    margin: 5em 5em;
+    text-align: center;
+}
+
+.rodape__logo {
+    text-align: center;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 3em 0;
+    
+}
+
+.rodape__links {
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin: 1em;
+}
+
+.rodape__texto {
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin: 1em 0;
+}
+
+.rodape__links:hover {
+    color: #167BF7;
+}
+
+.conteiner__botao:hover {
+    background-color: var(--botao-fundo);
+    color: #00030C;
+}
