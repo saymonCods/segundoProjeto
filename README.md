@@ -1,2 +1,2 @@
 # segundoProjeto
-Segundo projeto abordando :
+Segundo projeto abordando : Display grid, variáveis CSS, listas, Classes duplas.
