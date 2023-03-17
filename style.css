@@ -166,3 +166,41 @@ body {
     background-color: var(--botao-fundo);
     color: #00030C;
 }
+
+@media screen and (max-width: 768px) {
+    .conteiner {
+        background-image: none;
+        display: block;
+    }
+    
+    .conteiner__caixa {
+        margin: 2em 2em;
+    }
+
+    .conteiner__img {
+        width: 50vw;
+    }
+
+    .secundario {
+        margin: 2em 2em;
+        text-align: center;
+    }
+
+    .dispositivos{
+        margin: 2em 2em;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+        margin: 0.5em
+    }
+
+    .rodape {
+        margin: 2em 2em;
+    }
+
+}
