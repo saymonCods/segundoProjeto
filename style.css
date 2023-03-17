@@ -149,7 +149,7 @@ body {
 .rodape__links {
     text-decoration: none;
     color: var(--branco-principal);
-    margin: 1em;
+    margin: 0 0.7em;
 }
 
 .rodape__texto {
